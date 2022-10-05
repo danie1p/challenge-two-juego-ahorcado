@@ -1,0 +1,98 @@
+html {
+
+    font-size: 10px;
+
+}
+
+.canvas {
+
+    margin-bottom: 3rem;
+
+}
+.main {
+
+    flex-direction: row;
+
+}
+.contenido-principal {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.estado-juego {
+
+    display: flex;
+    align-self: center;
+    justify-content: center;
+
+}
+
+.letra {
+    
+    display: inline-block;
+    font-size: 4rem;
+    margin: 0 1rem;
+    border-bottom: 0.4rem solid #0A3871;
+    color: #0A3871;
+    width: 5rem;
+    display: none;
+    text-align: center;
+
+}
+
+.palabra {
+
+    margin: 3rem;
+
+}
+
+.btn-agregar {
+
+    padding: 1.5rem 9rem;
+
+}
+
+.buttons {
+
+    margin: 6rem 0;
+
+}
+
+.palabra-erronea {
+
+    display: inline-block;
+    font-size: 4rem;
+    margin: 0 1rem;
+    color: #0A3871;
+    text-align: center;
+
+}
+
+.juego-ganado {
+
+    color: green;
+    font-size: 6rem;
+
+}
+
+.juego-perdido {
+
+    color: red;
+    font-size: 6rem;
+
+}
+
+@media all and  (max-width: 1390px) {
+
+    html {
+
+        font-size: 6px;
+
+    }
+    
+}
+
+

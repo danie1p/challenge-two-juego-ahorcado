@@ -1,0 +1,46 @@
+.main {
+
+    flex-direction: column;
+    margin: 0;
+
+}
+#txt-area {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 3.75% auto ;
+}
+#text-area-agregar-palabra {
+
+    padding: 50% 100%;
+    resize: none;
+    color: #0A3871;
+    background-color: #E5E5E5;
+    border: none;
+
+}
+#text-area-agregar-palabra :active {
+
+    border: none;
+
+}
+#text-area-agregar-palabra::placeholder {
+
+    text-align: left;
+    font-size: 3.2rem;
+
+}
+.btn {
+
+    margin: 1.2rem 2rem;
+    background-color: #0A3871;
+    color: #fff;
+    padding: 1.5rem 6rem;
+
+}
+.btn-agregar {
+
+    background-color: #E5E5E5;
+    color: #0A3871;
+    padding: 1.5rem 5rem;
+
+}
